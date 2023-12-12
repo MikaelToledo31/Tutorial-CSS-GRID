@@ -1,0 +1,48 @@
+.container{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.bloco1{
+    background-color: red;
+    padding: 16px;
+    /* width: 150px;
+    height: 150px; */
+    border: black 1px solid;
+    border-radius: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: auto;
+}
+
+.bloco2{
+    background-color: blue;
+    padding: 16px;
+    /* width: 150px;
+    height: 150px; */
+    border: black 1px solid;
+    border-radius: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: auto;
+}
+
+.bloco3{
+    background-color: yellow;
+    padding: 16px;
+    /* width: 150px;
+    height: 150px; */
+    border: black 1px solid;
+    border-radius: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: auto;
+}
